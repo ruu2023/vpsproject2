@@ -16,6 +16,8 @@ test:
 
 production:
   <<: *default
+  adapter: mysql2
   database: vpsproject_production
   username: root
-  password: <%= ENV['YOUR_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /run/mysqld/mysqld.sock
