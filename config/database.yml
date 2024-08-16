@@ -10,8 +10,8 @@ default: &default
 development:
   <<: *default
   database: vpsproject_development
-  username: root
-  password:
+  username: deploy
+  password: nLpp375Fr@&Z
 
 test:
   <<: *default
