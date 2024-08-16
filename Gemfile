@@ -60,6 +60,14 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  
+  gem 'capistrano'
+  gem 'ed25519'
+  gem 'bcrypt_pbkdf'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem "capistrano3-puma", '~> 5.0.0'
 end
 
 group :test do
@@ -68,6 +76,3 @@ group :test do
   gem "selenium-webdriver"
 end
 
-group :production do
-  gem 'unicorn', '6.1.0'
-end
