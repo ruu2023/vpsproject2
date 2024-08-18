@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.19.1"
 
-server '160.251.179.101', port: 22, roles: [:app, :web, :db], primary: true
+server '160.251.179.101', port: 50022, roles: [:app, :web, :db], primary: true
 set :application, "myapp"
 set :repo_url, "git@github.com:ruu2023/vpsproject2.git"
 set :user,            'deploy'
