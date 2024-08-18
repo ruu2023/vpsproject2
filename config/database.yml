@@ -19,7 +19,7 @@ test:
 
 production:
   <<: *default
-  database: vpsproject_production
+  database: vpsproject2_production
   username: deploy
   # password: <%= ENV['DATABASE_PASSWORD'] %>
   password: nLpp375Fr@&Z
